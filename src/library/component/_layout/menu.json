@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "upId": 0,
+    "url": null,
+    "name": "系统管理",
+    "icon": "cog",
+    "children": [
+      {
+        "id": 2,
+        "upId": 1,
+        "url": "/sys/log",
+        "name": "系统日志"
+      },
+      {
+        "id": 3,
+        "upId": 1,
+        "url": "/sys/menu",
+        "name": "系统菜单"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "upId": 0,
+    "url": null,
+    "name": "仪表盘",
+    "icon": "analyse",
+    "permission": "dashboard",
+    "children": [
+      {
+        "id": 5,
+        "upId": 4,
+        "url": "/dashboard/analysis",
+        "name": "分析页"
+      },
+      {
+        "id": 7,
+        "upId": 4,
+        "url": "/dashboard/workplace",
+        "name": "工作台"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "upId": 0,
+    "url": null,
+    "name": "表单页",
+    "permission": "form",
+    "icon": "form",
+    "children": [
+      {
+        "id": 9,
+        "upId": 8,
+        "url": "/form/base-form",
+        "name": "基础表单"
+      },
+      {
+        "id": 10,
+        "upId": 8,
+        "url": "/form/step-form",
+        "name": "分步表单"
+      },
+      {
+        "id": 11,
+        "upId": 8,
+        "url": "/form/advanced-form",
+        "name": "高级表单"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "upId": 0,
+    "url": null,
+    "name": "列表页",
+    "icon": "table",
+    "children": [
+      {
+        "id": 13,
+        "upId": 12,
+        "url": "/list/query-list",
+        "name": "查询表格"
+      },
+      {
+        "id": 14,
+        "upId": 12,
+        "url": "/list/tree-list",
+        "name": "树目录表格"
+      },
+      {
+        "id": 15,
+        "upId": 12,
+        "url": "/list/edit-table",
+        "name": "内联编辑表格"
+      },
+      {
+        "id": 16,
+        "upId": 12,
+        "url": "/list/user-list",
+        "name": "用户列表"
+      },
+      {
+        "id": 17,
+        "upId": 12,
+        "url": "/list/role-list",
+        "name": "角色列表"
+      },
+      {
+        "id": 18,
+        "upId": 12,
+        "url": "/list/system-role",
+        "name": "角色列表2"
+      },
+      {
+        "id": 19,
+        "upId": 12,
+        "url": "/list/permission-list",
+        "name": "权限列表"
+      },
+      {
+        "id": 20,
+        "upId": 12,
+        "url": "/list/basic-list",
+        "name": "标准列表"
+      },
+      {
+        "id": 21,
+        "upId": 12,
+        "url": "/list/card",
+        "name": "卡片列表"
+      },
+      {
+        "id": 22,
+        "upId": 12,
+        "url": "/list/search",
+        "name": "搜索列表",
+        "children": [
+          {
+            "id": 23,
+            "upId": 22,
+            "url": "/list/search/article",
+            "name": "搜索列表（文章）"
+          },
+          {
+            "id": 24,
+            "upId": 22,
+            "url": "/list/search/project",
+            "name": "搜索列表（项目）"
+          },
+          {
+            "id": 25,
+            "upId": 22,
+            "url": "/list/search/application",
+            "name": "搜索列表（应用）"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "upId": 0,
+    "url": null,
+    "name": "详情页",
+    "icon": "profile",
+    "children": [
+      {
+        "id": 27,
+        "upId": 26,
+        "url": "/profile/basic",
+        "name": "基础详情页"
+      },
+      {
+        "id": 28,
+        "upId": 26,
+        "url": "/profile/advanced",
+        "name": "高级详情页"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "upId": 0,
+    "url": null,
+    "name": "结果页",
+    "icon": "check-circle-o",
+    "children": [
+      {
+        "id": 30,
+        "upId": 29,
+        "url": "/result/success",
+        "name": "成功"
+      },
+      {
+        "id": 31,
+        "upId": 29,
+        "url": "/result/fail",
+        "name": "失败"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "upId": 0,
+    "url": null,
+    "name": "异常页",
+    "icon": "warning",
+    "children": [
+      {
+        "id": 33,
+        "upId": 32,
+        "url": "/exception/403",
+        "name": "403"
+      },
+      {
+        "id": 34,
+        "upId": 32,
+        "url": "/exception/404",
+        "name": "404"
+      },
+      {
+        "id": 35,
+        "upId": 32,
+        "url": "/exception/500",
+        "name": "500"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "upId": 0,
+    "url": null,
+    "name": "个人页",
+    "icon": "user",
+    "children": [
+      {
+        "id": 37,
+        "upId": 36,
+        "url": "/account/center",
+        "name": "个人中心"
+      },
+      {
+        "id": 38,
+        "upId": 36,
+        "url": "/account/settings",
+        "name": "个人设置",
+        "children": [
+          {
+            "id": 39,
+            "upId": 38,
+            "url": "/account/settings/base",
+            "name": "基本设置"
+          },
+          {
+            "id": 40,
+            "upId": 38,
+            "url": "/account/settings/security",
+            "name": "安全设置"
+          },
+          {
+            "id": 41,
+            "upId": 38,
+            "url": "/account/settings/custom",
+            "name": "个性化设置"
+          },
+          {
+            "id": 42,
+            "upId": 38,
+            "url": "/account/settings/binding",
+            "name": "账户绑定"
+          },
+          {
+            "id": 43,
+            "upId": 38,
+            "url": "/account/settings/notification",
+            "name": "新消息通知"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "upId": 0,
+    "url": null,
+    "name": "其他组件",
+    "icon": "slack",
+    "children": [
+      {
+        "id": 45,
+        "upId": 44,
+        "url": "/other/icon-selector",
+        "name": "IconSelector"
+      }
+    ]
+  }
+]
